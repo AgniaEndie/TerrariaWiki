@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single" android:title="Оружие">
+        <item android:title="Оружие">
+            <menu>
+                <item android:title="@string/melee"
+                    android:id="@+id/id_melee"
+                    android:icon="@drawable/ic_fish_foreground"/>
+                <item android:title="@string/na"
+                    android:id="@+id/id_distant"
+                    android:icon="@drawable/ic_na_foreground"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single" android:title="Мобы">
+        <item android:title="Мобы">
+            <menu>
+                <item android:title="@string/sna"
+                    android:id="@+id/id_mob"
+                    android:icon="@drawable/ic_na_foreground"/>
+                <item android:title="@string/history"
+                    android:id="@+id/id_boss"
+                    android:icon="@drawable/ic_na_foreground"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single" android:title="Игровой мир">
+        <item android:title="Игровой мир">
+            <menu>
+                <item android:title="@string/history_2"
+                    android:id="@+id/id_biome"
+                    android:icon="@drawable/ic_na_foreground"/>
+            </menu>
+        </item>
+    </group>
+
+    <!--
+    <item android:title="Мобы">
+
+        <menu>
+
+            <item android:title="@string/sna"
+                android:id="@+id/id_sna"
+                android:icon="@drawable/ic_na_foreground"/>
+            <item android:title="@string/history"
+                android:id="@+id/id_history"
+                android:icon="@drawable/ic_na_foreground"/>
+        </menu>
+
+    </item>
+    <item android:title="Игровой мир">
+
+        <menu>
+
+            <item android:title="@string/world"
+                android:id="@+id/id_world"
+                android:icon="@drawable/ic_na_foreground"/>
+            <item android:title="@string/history_2"
+                android:id="@+id/id_biome"
+                android:icon="@drawable/ic_na_foreground"/>
+        </menu>
+
+    </item>
+    -->
+
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Terraria</string>
+    <string name="melee">Ближнее</string>
+    <string name="na">Дальнее</string>
+    <string name="sna">Мобы</string>
+    <string name="history">Боссы</string>
+    <string name="history_2">Биомы</string>
+    <string name="world">Игровой мир</string>
+</resources>
